@@ -1,0 +1,85 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1606+                                |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      fvSchemes;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+ddtSchemes
+{
+    default         Euler;
+    ddt(phi)        Euler;
+}
+
+gradSchemes
+{
+    default         cellLimited Gauss linear 0.333;//Gauss linear
+}
+
+divSchemes
+{
+    default                         none;
+
+    div(phi,alpha.air)              Gauss upwind;
+    div(phir,alpha.air)             Gauss upwind;
+    //div(phi,alpha.air)              Gauss vanLeer;
+    //div(phir,alpha.air)             Gauss vanLeer;
+
+    "div\(alphaRhoPhi.*,U.*\)"      Gauss upwind;
+    "div\(phi.*,U.*\)"              Gauss upwind;
+
+    //div(phi.air,kappai.air)         Gauss vanLeer;
+    div(phi.air,kappai.air)         Gauss upwind;
+
+    "div\(alphaRhoPhi.*,(h|e).*\)"  Gauss upwind;
+    "div\(alphaRhoPhi.*,K.*\)"      Gauss upwind;
+    "div\(alphaPhi.*,p\)"           Gauss upwind;
+    "div\(alphaRhoPhi.*,(k|epsilon).*\)"  Gauss upwind;
+    "div\(phim,(k|epsilon)m\)"      Gauss upwind; 
+
+    "div\(\(\(\(alpha.*\*thermo:rho.*\)*nuEff.*\)\*dev2\(T\(grad\(U.*\)\)\)\)\)" Gauss linear;
+
+    
+}
+
+laplacianSchemes
+{
+    default           Gauss linear limited corrected 0.333;
+    laplacian(yPsi)   Gauss linear limited corrected 0.333;
+}
+
+interpolationSchemes
+{
+    default         linear;
+}
+
+snGradSchemes
+{
+    default         limited corrected 0.333;
+}
+
+/*wallDist
+{
+    method          meshWave;
+    nRequired       true;
+    correctWalls    true;
+}*/
+
+wallDist
+{
+    method      Poisson;
+    nRequired   true;
+}
+
+
+// ************************************************************************* //

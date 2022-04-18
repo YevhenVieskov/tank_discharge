@@ -1,0 +1,998 @@
+FoamFile
+{
+	version	2.0;
+	class	dictionary;
+	format	ascii;
+	location	"system";
+	object	snappyHexMeshDict;
+}
+castellatedMesh	true;
+snap	true;
+addLayers	true;
+geometry
+{
+	opening.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	opening;
+		includedAngle	120.0;
+	}
+	outlet.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	outlet;
+		includedAngle	120.0;
+	}
+	pipe.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	pipe;
+		includedAngle	120.0;
+	}
+	plate.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	plate;
+		includedAngle	120.0;
+	}
+	ribbig1.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	ribbig1;
+		includedAngle	120.0;
+	}
+	ribbig2.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	ribbig2;
+		includedAngle	120.0;
+	}
+	ribbig3.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	ribbig3;
+		includedAngle	120.0;
+	}
+	ribbig4.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	ribbig4;
+		includedAngle	120.0;
+	}
+	ribbig5.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	ribbig5;
+		includedAngle	120.0;
+	}
+	ribbig6.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	ribbig6;
+		includedAngle	120.0;
+	}
+	ribsmall1.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	ribsmall1;
+		includedAngle	120.0;
+	}
+	ribsmall10.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	ribsmall10;
+		includedAngle	120.0;
+	}
+	ribsmall11.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	ribsmall11;
+		includedAngle	120.0;
+	}
+	ribsmall12.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	ribsmall12;
+		includedAngle	120.0;
+	}
+	ribsmall13.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	ribsmall13;
+		includedAngle	120.0;
+	}
+	ribsmall14.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	ribsmall14;
+		includedAngle	120.0;
+	}
+	ribsmall15.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	ribsmall15;
+		includedAngle	120.0;
+	}
+	ribsmall16.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	ribsmall16;
+		includedAngle	120.0;
+	}
+	ribsmall17.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	ribsmall17;
+		includedAngle	120.0;
+	}
+	ribsmall18.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	ribsmall18;
+		includedAngle	120.0;
+	}
+	ribsmall2.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	ribsmall2;
+		includedAngle	120.0;
+	}
+	ribsmall3.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	ribsmall3;
+		includedAngle	120.0;
+	}
+	ribsmall4.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	ribsmall4;
+		includedAngle	120.0;
+	}
+	ribsmall5.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	ribsmall5;
+		includedAngle	120.0;
+	}
+	ribsmall6.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	ribsmall6;
+		includedAngle	120.0;
+	}
+	ribsmall7.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	ribsmall7;
+		includedAngle	120.0;
+	}
+	ribsmall8.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	ribsmall8;
+		includedAngle	120.0;
+	}
+	ribsmall9.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	ribsmall9;
+		includedAngle	120.0;
+	}
+	ribtop1.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	ribtop1;
+		includedAngle	120.0;
+	}
+	ribtop2.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	ribtop2;
+		includedAngle	120.0;
+	}
+	ribtop3.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	ribtop3;
+		includedAngle	120.0;
+	}
+	ribtop4.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	ribtop4;
+		includedAngle	120.0;
+	}
+	ribtop5.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	ribtop5;
+		includedAngle	120.0;
+	}
+	ribtop6.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	ribtop6;
+		includedAngle	120.0;
+	}
+	wallmag.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	wallmag;
+		includedAngle	120.0;
+	}
+	walltank.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	walltank;
+		includedAngle	120.0;
+	}
+	walltrans.stl
+	{
+		type	triSurfaceMesh;
+		//simflowType	stl;
+		name	walltrans;
+		includedAngle	120.0;
+	}
+	
+	/*cylinder
+	{
+	    type    searchableCylinder;
+		point1  (0.0 -0.1 0.0);
+		point2  (0.0 -11.5 0.0);
+		radius  1.5;
+	}
+	
+	sphere
+	{
+	   type     searchableSphere; 
+	   centre   (0.0 2.16 0.0);
+	   radius   2.5;
+	}*/
+}
+castellatedMeshControls
+{
+	locationInMesh	(0.0 0.0 0.0);
+	refinementSurfaces
+	{
+		opening
+		{
+			level	( 0 1 );
+			patchInfo
+			{
+				type	patch;
+			}
+		}
+		outlet
+		{
+			level	( 0 0 );
+			patchInfo
+			{
+				type	patch;
+			}
+		}
+		pipe
+		{
+			level	( 0 1 );
+			patchInfo
+			{
+				type	wall;
+			}
+		}
+		plate
+		{
+			level	( 1 2 );
+			patchInfo
+			{
+				type	wall;
+			}
+		}
+		ribbig1
+		{
+			level	( 0 0 );
+			patchInfo
+			{
+				type	wall;
+			}
+			faceZone	ribbig1;
+			faceType	baffle;
+			cellZone	ribbig1;
+			cellZoneInside	inside;
+		}
+		ribbig2
+		{
+			level	( 0 0 );
+			patchInfo
+			{
+				type	wall;
+			}
+			faceZone	ribbig2;
+			faceType	baffle;
+			cellZone	ribbig2;
+			cellZoneInside	inside;
+		}
+		ribbig3
+		{
+			level	( 0 0 );
+			patchInfo
+			{
+				type	wall;
+			}
+			faceZone	ribbig3;
+			faceType	baffle;
+			cellZone	ribbig3;
+			cellZoneInside	inside;
+		}
+		ribbig4
+		{
+			level	( 0 0 );
+			patchInfo
+			{
+				type	wall;
+			}
+			faceZone	ribbig4;
+			faceType	baffle;
+			cellZone	ribbig4;
+			cellZoneInside	inside;
+		}
+		ribbig5
+		{
+			level	( 0 0 );
+			patchInfo
+			{
+				type	wall;
+			}
+			faceZone	ribbig5;
+			faceType	baffle;
+			cellZone	ribbig5;
+			cellZoneInside	inside;
+		}
+		ribbig6
+		{
+			level	( 0 0 );
+			patchInfo
+			{
+				type	wall;
+			}
+			faceZone	ribbig6;
+			faceType	baffle;
+			cellZone	ribbig6;
+			cellZoneInside	inside;
+		}
+		ribsmall1
+		{
+			level	( 0 0 );
+			patchInfo
+			{
+				type	wall;
+			}
+			faceZone	ribsmall1;
+			faceType	baffle;
+			cellZone	ribsmall1;
+			cellZoneInside	inside;
+		}
+		ribsmall10
+		{
+			level	( 0 0 );
+			patchInfo
+			{
+				type	wall;
+			}
+			faceZone	ribsmall10;
+			faceType	baffle;
+			cellZone	ribsmall10;
+			cellZoneInside	inside;
+		}
+		ribsmall11
+		{
+			level	( 0 0 );
+			patchInfo
+			{
+				type	wall;
+			}
+			faceZone	ribsmall11;
+			faceType	baffle;
+			cellZone	ribsmall11;
+			cellZoneInside	inside;
+		}
+		ribsmall12
+		{
+			level	( 0 0 );
+			patchInfo
+			{
+				type	wall;
+			}
+			faceZone	ribsmall12;
+			faceType	baffle;
+			cellZone	ribsmall12;
+			cellZoneInside	inside;
+		}
+		ribsmall13
+		{
+			level	( 0 0 );
+			patchInfo
+			{
+				type	wall;
+			}
+			faceZone	ribsmall13;
+			faceType	baffle;
+			cellZone	ribsmall13;
+			cellZoneInside	inside;
+		}
+		ribsmall14
+		{
+			level	( 0 0 );
+			patchInfo
+			{
+				type	wall;
+			}
+			faceZone	ribsmall14;
+			faceType	baffle;
+			cellZone	ribsmall14;
+			cellZoneInside	inside;
+		}
+		ribsmall15
+		{
+			level	( 0 0 );
+			patchInfo
+			{
+				type	wall;
+			}
+			faceZone	ribsmall15;
+			faceType	baffle;
+			cellZone	ribsmall15;
+			cellZoneInside	inside;
+		}
+		ribsmall16
+		{
+			level	( 0 0 );
+			patchInfo
+			{
+				type	wall;
+			}
+			faceZone	ribsmall16;
+			faceType	baffle;
+			cellZone	ribsmall16;
+			cellZoneInside	inside;
+		}
+		ribsmall17
+		{
+			level	( 0 0 );
+			patchInfo
+			{
+				type	wall;
+			}
+			faceZone	ribsmall17;
+			faceType	baffle;
+			cellZone	ribsmall17;
+			cellZoneInside	inside;
+		}
+		ribsmall18
+		{
+			level	( 0 0 );
+			patchInfo
+			{
+				type	wall;
+			}
+			faceZone	ribsmall18;
+			faceType	baffle;
+			cellZone	ribsmall18;
+			cellZoneInside	inside;
+		}
+		ribsmall2
+		{
+			level	( 0 0 );
+			patchInfo
+			{
+				type	wall;
+			}
+			faceZone	ribsmall2;
+			faceType	baffle;
+			cellZone	ribsmall2;
+			cellZoneInside	inside;
+		}
+		ribsmall3
+		{
+			level	( 0 0 );
+			patchInfo
+			{
+				type	wall;
+			}
+			faceZone	ribsmall3;
+			faceType	baffle;
+			cellZone	ribsmall3;
+			cellZoneInside	inside;
+		}
+		ribsmall4
+		{
+			level	( 0 0 );
+			patchInfo
+			{
+				type	wall;
+			}
+			faceZone	ribsmall4;
+			faceType	baffle;
+			cellZone	ribsmall4;
+			cellZoneInside	inside;
+		}
+		ribsmall5
+		{
+			level	( 0 0 );
+			patchInfo
+			{
+				type	wall;
+			}
+			faceZone	ribsmall5;
+			faceType	baffle;
+			cellZone	ribsmall5;
+			cellZoneInside	inside;
+		}
+		ribsmall6
+		{
+			level	( 0 0 );
+			patchInfo
+			{
+				type	wall;
+			}
+			faceZone	ribsmall6;
+			faceType	baffle;
+			cellZone	ribsmall6;
+			cellZoneInside	inside;
+		}
+		ribsmall7
+		{
+			level	( 0 0 );
+			patchInfo
+			{
+				type	wall;
+			}
+			faceZone	ribsmall7;
+			faceType	baffle;
+			cellZone	ribsmall7;
+			cellZoneInside	inside;
+		}
+		ribsmall8
+		{
+			level	( 0 0 );
+			patchInfo
+			{
+				type	wall;
+			}
+			faceZone	ribsmall8;
+			faceType	baffle;
+			cellZone	ribsmall8;
+			cellZoneInside	inside;
+		}
+		ribsmall9
+		{
+			level	( 0 0 );
+			patchInfo
+			{
+				type	wall;
+			}
+			faceZone	ribsmall9;
+			faceType	baffle;
+			cellZone	ribsmall9;
+			cellZoneInside	inside;
+		}
+		ribtop1
+		{
+			level	( 0 0 );
+			patchInfo
+			{
+				type	wall;
+			}
+			faceZone	ribtop1;
+			faceType	baffle;
+			cellZone	ribtop1;
+			cellZoneInside	inside;
+		}
+		ribtop2
+		{
+			level	( 0 0 );
+			patchInfo
+			{
+				type	wall;
+			}
+			faceZone	ribtop2;
+			faceType	baffle;
+			cellZone	ribtop2;
+			cellZoneInside	inside;
+		}
+		ribtop3
+		{
+			level	( 0 0 );
+			patchInfo
+			{
+				type	wall;
+			}
+			faceZone	ribtop3;
+			faceType	baffle;
+			cellZone	ribtop3;
+			cellZoneInside	inside;
+		}
+		ribtop4
+		{
+			level	( 0 0 );
+			patchInfo
+			{
+				type	wall;
+			}
+			faceZone	ribtop4;
+			faceType	baffle;
+			cellZone	ribtop4;
+			cellZoneInside	inside;
+		}
+		ribtop5
+		{
+			level	( 0 0 );
+			patchInfo
+			{
+				type	wall;
+			}
+			faceZone	ribtop5;
+			faceType	baffle;
+			cellZone	ribtop5;
+			cellZoneInside	inside;
+		}
+		ribtop6
+		{
+			level	( 0 0 );
+			patchInfo
+			{
+				type	wall;
+			}
+			faceZone	ribtop6;
+			faceType	baffle;
+			cellZone	ribtop6;
+			cellZoneInside	inside;
+		}
+		wallmag
+		{
+			level	( 1 2 );
+			patchInfo
+			{
+				type	wall;
+			}
+			
+		}
+		walltank
+		{
+			level	( 1 2 );
+			patchInfo
+			{
+				type	wall;
+			}
+			
+		}
+		walltrans
+		{
+			level	( 1 2 );
+			patchInfo
+			{
+				type	wall;
+			}
+			
+		}
+	}
+	refinementRegions
+	{
+	    /*sphere
+		{
+		    
+			levels(2,4);
+		}*/
+		
+		/*cylinder
+		{
+		    
+			levels(2,2);
+		}*/
+	}
+	limitRegions
+	{
+	}
+	features	
+	(
+	{
+		file	"opening.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"outlet.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"pipe.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"plate.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"ribbig1.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"ribbig2.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"ribbig3.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"ribbig4.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"ribbig5.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"ribbig6.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"ribsmall1.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"ribsmall10.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"ribsmall11.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"ribsmall12.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"ribsmall13.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"ribsmall14.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"ribsmall15.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"ribsmall16.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"ribsmall17.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"ribsmall18.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"ribsmall2.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"ribsmall3.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"ribsmall4.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"ribsmall5.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"ribsmall6.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"ribsmall7.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"ribsmall8.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"ribsmall9.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"ribtop1.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"ribtop2.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"ribtop3.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"ribtop4.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"ribtop5.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"ribtop6.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"wallmag.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"walltank.eMesh";
+		levels	((0 0));
+	}
+	{
+		file	"walltrans.eMesh";
+		levels	((0 0));
+	}
+	);
+	maxLocalCells	5000000;
+	maxGlobalCells	50000000;
+	nCellsBetweenLevels	2;
+	maxLoadUnbalance	0.1;
+	minRefinementCells	10;
+	resolveFeatureAngle	30.0;
+	allowFreeStandingZoneFaces	true;
+}
+snapControls
+{
+	tolerance	2.0; //2-5
+	nSmoothPatch	20;//5
+	nSolveIter	700;
+	nRelaxIter	20;
+	nFeatureSnapIter	1;//15
+	implicitFeatureSnap	false;
+	explicitFeatureSnap	true;
+	multiRegionFeatureSnap	true;
+	nFaceSplitInterval	1;//5
+}
+addLayersControls
+{
+	layers
+	{
+		plate
+		{
+			nSurfaceLayers	5;
+			expansionRatio	1.25;
+			firstLayerThickness	0.2;
+		}
+		/*plate_patch0
+		{
+			nSurfaceLayers	5;
+			expansionRatio	1.25;
+			firstLayerThickness	0.2;
+		}*/
+		wallmag
+		{
+			nSurfaceLayers	5;
+			expansionRatio	1.25;
+			firstLayerThickness	0.2;
+		}
+		/*wallmag_patch0
+		{
+			nSurfaceLayers	5;
+			expansionRatio	1.25;
+			firstLayerThickness	0.2;
+		}*/
+		walltank
+		{
+			nSurfaceLayers	5;
+			expansionRatio	1.25;
+			firstLayerThickness	0.2;
+		}
+		/*walltank_patch0
+		{
+			nSurfaceLayers	5;
+			expansionRatio	1.25;
+			firstLayerThickness	0.2;
+		}*/
+		walltrans
+		{
+			nSurfaceLayers	5;
+			expansionRatio	1.25;
+			firstLayerThickness	0.2;
+		}
+		/*walltrans_patch0
+		{
+			nSurfaceLayers	5;
+			expansionRatio	1.25;
+			firstLayerThickness	0.2;
+		}*/
+	}
+	relativeSizes	true;
+	minThickness	0.1;
+	firstLayerThickness	0.2;
+	expansionRatio	1.25;
+	nGrow	0;
+	featureAngle	180.0;
+	maxFaceThicknessRatio	0.5;
+	nSmoothSurfaceNormals	5;
+	nSmoothThickness	10;
+	minMedialAxisAngle	90.0;
+	maxThicknessToMedialRatio	0.3;//0.5
+	nMedialAxisIter	100;
+	nSmoothNormals	3;
+	slipFeatureAngle	30.0;
+	nRelaxIter	5;
+	nBufferCellsNoExtrude	0;
+	nLayerIter	50;
+	nRelaxedIter	20;
+	detectExtrusionIsland	true;
+}
+meshQualityControls
+{
+	maxNonOrtho	65.0;
+	maxBoundarySkewness	4.0;//20.0
+	maxInternalSkewness	4.0;
+	maxConcave	80.0;
+	minVol	1.0E-13;
+	minTetQuality	1.0E-15;
+	minArea	-1.0;
+	minTwist	0.02;
+	minTriangleTwist	-1.0;
+	minDeterminant	0.001;//0.01
+	minFaceWeight	0.05;
+	minVolRatio	0.01;
+	minVolCollapseRatio	0.1;
+	nSmoothScale	4;
+	errorReduction	0.75;
+	relaxed
+	{
+		maxNonOrtho	65.0;
+	}
+}
+mergeTolerance	1.0E-6;
+debug	0;

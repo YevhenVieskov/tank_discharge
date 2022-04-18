@@ -1,0 +1,83 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v3.0+                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volScalarField;
+    location    "0";
+    object      nut;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 2 -1 0 0 0 0];
+
+internalField   uniform 1e-8;
+
+boundaryField
+{
+    
+   opening
+    {
+        type            calculated;
+        value           $internalField; 
+    }
+       
+    	
+    outlet
+    {
+        
+        type            calculated;
+        value           $internalField; 		
+    }
+        
+    "plate.*"
+    {
+        /*type            nutkWallFunction;
+        value           $internalField; */
+        type           nutkRoughWallFunction;
+        Ks             uniform 20e-6;
+        Cs             uniform 0.5;
+        value           $internalField;
+    }
+	
+    "pipe.*"
+    {
+        /*type            nutkWallFunction;
+        value           $internalField; */
+        type           nutkRoughWallFunction;
+        Ks             uniform 20e-6;
+        Cs             uniform 0.5;
+        value           $internalField;
+    }
+	
+	"rib.*"
+    {
+        /*type            nutkWallFunction;
+        value           $internalField;*/ 
+        type           nutkRoughWallFunction;
+        Ks             uniform 20e-6;
+        Cs             uniform 0.5;
+        value           $internalField;
+    }
+	
+    "wall.*"
+    {
+        /*type            nutkWallFunction;
+        value           $internalField;*/
+        type           nutkRoughWallFunction;
+        Ks             uniform 20e-6;
+        Cs             uniform 0.5; 
+        value           $internalField;
+    }
+	    
+}
+
+
+
+// ************************************************************************* //

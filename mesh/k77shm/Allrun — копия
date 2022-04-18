@@ -1,0 +1,37 @@
+#!/bin/bash
+
+surfaceFeatureExtract
+
+blockMesh
+
+decomposePar
+
+mpiexec -np 48 snappyHexMesh -parallel -overwrite
+
+mpiexec -np 48 checkMesh -parallel -latestTime 
+
+# Get rid of zero faced patches
+mpiexec -np 48 createPatch -overwrite -parallel
+
+mpiexec -np 48 patchSummary -parallel -constant
+
+#reconstructParMesh -mergeTol 1e-06 -constant
+reconstructParMesh -latestTime                
+
+
+
+
+#Some utilities used for mesh manipulation
+#In this case we split the mesh in order to have two separate regions
+
+#Will split the mesh in regions using the baffles
+createBaffles -overwrite
+
+#Split previous baffles so the regions can rotate
+mergeOrSplitBaffles -split -overwrite
+
+#Get rid of zero faced patches
+createPatch -overwrite
+
+#Just to show the regions and names
+splitMeshRegions -detectOnly 

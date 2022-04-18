@@ -1,0 +1,5 @@
+setFields
+decomposePar
+mpirun -np 39 renumberMesh -overwrite -parallel
+mpirun -np 39 twoPhaseEulerFoam -parallel
+reconstructPar

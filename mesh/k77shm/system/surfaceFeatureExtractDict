@@ -1,0 +1,766 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  4.x                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/ 
+FoamFile
+{
+	version	2.0;
+	class	dictionary;
+	format	ascii;
+	location	"system";
+	object	surfaceFeatureExtractDict;
+}
+
+ribbig1.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+} 
+
+
+ribbig2.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+}
+
+ribbig3.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+}
+
+ribbig4.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+} 
+
+ribbig5.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+} 
+
+ribbig6.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+}  
+
+ 
+
+ribtop1.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+} 
+
+
+ribtop2.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+}
+
+ribtop3.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+}
+
+ribtop4.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+} 
+
+ribtop5.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+} 
+
+ribtop6.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+}  
+
+
+
+ribsmall1.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+} 
+
+
+ribsmall2.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+}
+
+ribsmall3.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+}
+
+ribsmall4.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+} 
+
+ribsmall5.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+} 
+
+ribsmall6.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+}  
+
+
+ribsmall7.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+} 
+
+
+ribsmall8.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+}
+
+ribsmall9.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+}
+
+ribsmall10.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+} 
+
+ribsmall11.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+} 
+
+ribsmall12.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+}  
+
+ribsmall13.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+} 
+
+
+ribsmall14.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+}
+
+ribsmall15.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+}
+
+ribsmall16.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+} 
+
+ribsmall17.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+} 
+
+ribsmall18.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+}  
+
+walltank.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+} 
+
+walltrans.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+} 
+
+wallmag.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+} 
+
+
+pipe.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+} 
+
+plate.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+} 
+
+opening.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+} 
+
+outlet.stl
+{
+    extractionMethod    extractFromSurface;
+
+    extractFromSurfaceCoeffs
+    {
+        includedAngle   150;
+    }
+
+    subsetFeatures
+    {
+        nonManifoldEdges       yes;
+        openEdges       yes;
+    }
+
+    // Write options
+
+    writeObj                yes;
+} 

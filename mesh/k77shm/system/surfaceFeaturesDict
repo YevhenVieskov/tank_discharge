@@ -1,0 +1,725 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  8
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      surfaceFeaturesDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+    
+
+    opening
+    {
+        surfaces
+        (
+             "opening.stl"
+		 
+        );
+        includedAngle           150;
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+    outlet
+    {
+        surfaces
+        (
+             "outlet.stl"
+		 
+        );
+        includedAngle           150;
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+     
+    pipe
+    {
+        surfaces
+        (
+             "pipe.stl"
+		 
+        );
+        includedAngle           150;
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+    plate
+    {
+        surfaces
+        (
+             "plate.stl"
+		 
+        );
+        includedAngle           150;
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+
+    wallmag
+    {
+        surfaces
+        (
+             "wallmag.stl"
+		 
+        );
+        includedAngle           150;
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+    walltank
+    {
+        surfaces
+        (
+             "walltank.stl"
+		 
+        );
+        includedAngle           150;
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+     walltrans
+    {
+        surfaces
+        (
+             "walltrans.stl"
+		 
+        );
+        includedAngle           150;
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+    ribbig1
+    {
+        surfaces
+        (
+             "ribbig1.stl"
+		 
+        );
+        includedAngle           150;
+        baffles(ribbig1);
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+    ribbig2
+    {
+        surfaces
+        (
+             "ribbig2.stl"
+		 
+        );
+        includedAngle           150;
+        baffles(ribbig2);
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+    ribbig3
+    {
+        surfaces
+        (
+             "ribbig3.stl"
+		 
+        );
+        includedAngle           150;
+        baffles(ribbig3);
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+    ribbig4
+    {
+        surfaces
+        (
+             "ribbig4.stl"
+		 
+        );
+        includedAngle           150;
+        baffles(ribbig4);
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+    ribbig5
+    {
+        surfaces
+        (
+             "ribbig5.stl"
+		 
+        );
+        includedAngle           150;
+        baffles(ribbig5);
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+
+    ribbig6
+    {
+        surfaces
+        (
+             "ribbig6.stl"
+		 
+        );
+        includedAngle           150;
+        baffles(ribbig6);
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+
+    ribbtop1
+    {
+        surfaces
+        (
+             "ribbtop1.stl"
+		 
+        );
+        includedAngle           150;
+        baffles(ribtop1);
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+    ribbtop2
+    {
+        surfaces
+        (
+             "ribbtop2.stl"
+		 
+        );
+        includedAngle           150;
+        baffles(ribtop2);
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+    ribbtop3
+    {
+        surfaces
+        (
+             "ribbtop3.stl"
+		 
+        );
+        includedAngle           150;
+        baffles(ribtop3);
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+    ribbtop4
+    {
+        surfaces
+        (
+             "ribbtop4.stl"
+		 
+        );
+        includedAngle           150;
+        baffles(ribtop4);
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+    ribbtop5
+    {
+        surfaces
+        (
+             "ribbtop5.stl"
+		 
+        );
+        includedAngle           150;
+        baffles(ribtop5);
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+    ribbtop6
+    {
+        surfaces
+        (
+             "ribbtop6.stl"
+		 
+        );
+        includedAngle           150;
+        baffles(ribtop6);
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+    ribsmall1
+    {
+        surfaces
+        (
+             "ribsmall1.stl"
+		 
+        );
+        includedAngle           150;
+        baffles(ribsmall1);
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+   ribsmall2
+    {
+        surfaces
+        (
+             "ribsmall2.stl"
+		 
+        );
+        includedAngle           150;
+        baffles(ribsmall2);
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+    ribsmall3
+    {
+        surfaces
+        (
+             "ribsmall3.stl"
+		 
+        );
+        includedAngle           150;
+        baffles(ribsmall3);
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+    ribsmall4
+    {
+        surfaces
+        (
+             "ribsmall4.stl"
+		 
+        );
+        includedAngle           150;
+        baffles(ribsmall4);
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+    ribsmall5
+    {
+        surfaces
+        (
+             "ribsmall5.stl"
+		 
+        );
+        includedAngle           150;
+        baffles(ribsmall5);
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+   ribsmall6
+    {
+        surfaces
+        (
+             "ribsmall6.stl"
+		 
+        );
+        includedAngle           150;
+        baffles(ribsmall6);
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+     ribsmall7
+    {
+        surfaces
+        (
+             "ribsmall7.stl"
+		 
+        );
+        includedAngle           150;
+        baffles(ribsmall7);
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+    
+     ribsmall8
+    {
+        surfaces
+        (
+             "ribsmall8.stl"
+		 
+        );
+        includedAngle           150;
+        baffles(ribsmall8);
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+     ribsmall9
+    {
+        surfaces
+        (
+             "ribsmall9.stl"
+		 
+        );
+        includedAngle           150;
+        baffles(ribsmall9);
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+     ribsmall10
+    {
+        surfaces
+        (
+             "ribsmall10.stl"
+		 
+        );
+        includedAngle           150;
+        baffles(ribsmall10);
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+     ribsmall11
+    {
+        surfaces
+        (
+             "ribsmall11.stl"
+		 
+        );
+        includedAngle           150;
+        baffles(ribsmall11);
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+     ribsmall12
+    {
+        surfaces
+        (
+             "ribsmall12.stl"
+		 
+        );
+        includedAngle           150;
+        baffles(ribsmall12);
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+     ribsmall13
+    {
+        surfaces
+        (
+             "ribsmall13.stl"
+		 
+        );
+        includedAngle           150;
+        baffles(ribsmall13);
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+    ribsmall14
+    {
+        surfaces
+        (
+             "ribsmall14.stl"
+		 
+        );
+        includedAngle           150;
+        baffles(ribsmall14);
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+     ribsmall15
+    {
+        surfaces
+        (
+             "ribsmall15.stl"
+		 
+        );
+        includedAngle           150;
+        baffles(ribsmall15);
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+     ribsmall16
+    {
+        surfaces
+        (
+             "ribsmall16.stl"
+		 
+        );
+        includedAngle           150;
+        baffles(ribsmall16);
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+     ribsmall17
+    {
+        surfaces
+        (
+             "ribsmall17.stl"
+		 
+        );
+        includedAngle           150;
+        baffles(ribsmall17);
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+     ribsmall18
+    {
+        surfaces
+        (
+             "ribsmall18.stl"
+		 
+        );
+        includedAngle           150;
+        baffles(ribsmall18);
+        writeObj                yes;
+        verboseObj              yes;
+        subsetFeatures
+        {   
+    
+            nonManifoldEdges    yes;    
+            openEdges           yes;
+        }   
+    }
+
+    
+    
+
+
+    
+
+   
+
+// ************************************************************************* //

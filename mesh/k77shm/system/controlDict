@@ -1,0 +1,31 @@
+FoamFile
+{
+	class	dictionary;
+	format	ascii;
+	location	"system";
+	object	controlDict;
+	version	2.0;
+}
+deltaT	1;
+endTime	1;
+purgeWrite	2;
+startFrom	latestTime;
+startTime	0;
+stopAt	endTime;
+timeFormat	general;
+timePrecision	6;
+writeControl	timeStep;
+writeInterval	10;
+writePrecision	9;
+runTimeModifiable	true;
+compression	uncompressed;
+writeFormat	ascii;//binary
+//libs	("libfvMotionSolvers.dll" "libturbulenceModels.dll" "libturbulenceModelSchemes.dll" "libfvOptions.dll");
+/*OptimisationSwitches
+{
+	fileHandler	uncollated;
+	fileModificationSkew	0;
+	maxMasterFileBufferSize	1.0E9;
+	maxThreadFileBufferSize	1.0E9;
+	mpiBufferSize	200000000;
+}*/

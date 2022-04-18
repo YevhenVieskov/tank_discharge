@@ -1,0 +1,33 @@
+#!/bin/bash
+splitMesh ribtop1 ribtop1m ribtop1s -overwrite
+splitMesh ribtop2 ribtop2m ribtop2s -overwrite
+splitMesh ribtop3 ribtop3m ribtop3s -overwrite
+splitMesh ribtop4 ribtop4m ribtop4s -overwrite
+splitMesh ribtop5 ribtop5m ribtop5s -overwrite
+splitMesh ribtop6 ribtop6m ribtop6s -overwrite
+
+splitMesh ribbig1 ribbig1m ribbig1s -overwrite
+splitMesh ribbig2 ribbig2m ribbig2s -overwrite
+splitMesh ribbig3 ribbig3m ribbig3s -overwrite
+splitMesh ribbig4 ribbig4m ribbig4s -overwrite
+splitMesh ribbig5 ribbig5m ribbig5s -overwrite
+splitMesh ribbig6 ribbig6m ribtop6s -overwrite
+
+splitMesh ribsmall1  ribsmall1m  ribsmall1s -overwrite
+splitMesh ribsmall2  ribsmall2m  ribsmall2s -overwrite
+splitMesh ribsmall3  ribsmall3m  ribsmall3s -overwrite
+splitMesh ribsmall4  ribsmall4m  ribsmall4s -overwrite
+splitMesh ribsmall5  ribsmall5m  ribsmall5s -overwrite
+splitMesh ribsmall6  ribsmall6m  ribsmall6s -overwrite
+splitMesh ribsmall7  ribsmall7m  ribsmall7s -overwrite
+splitMesh ribsmall8  ribsmall8m  ribsmall8s -overwrite
+splitMesh ribsmall9  ribsmall9m  ribsmall9s -overwrite
+splitMesh ribsmall10 ribsmall10m ribsmall10s -overwrite
+splitMesh ribsmall11 ribsmall11m ribsmall11s -overwrite
+splitMesh ribsmall12 ribsmall12m ribsmall12s -overwrite
+splitMesh ribsmall13 ribsmall13m ribsmall13s -overwrite
+splitMesh ribsmall14 ribsmall14m ribsmall14s -overwrite
+splitMesh ribsmall15 ribsmall15m ribsmall15s -overwrite
+splitMesh ribsmall16 ribsmall16m ribsmall16s -overwrite
+splitMesh ribsmall17 ribsmall17m ribsmall17s -overwrite
+splitMesh ribsmall18 ribsmall18m ribsmall18s -overwrite

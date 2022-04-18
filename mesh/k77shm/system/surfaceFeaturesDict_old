@@ -1,0 +1,83 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  8
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      surfaceFeaturesDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+
+    surfaces
+    (
+        opening.stl
+	outlet.stl	
+	pipe.stl
+	plate.stl
+	ribbig1.stl
+	ribbig2.stl
+	ribbig3.stl
+	ribbig4.stl
+	ribbig5.stl
+	ribbig6.stl
+	ribsmall1.stl
+	ribsmall10.stl
+	ribsmall11.stl
+	ribsmall12.stl
+	ribsmall13.stl
+	ribsmall14.stl
+	ribsmall15.stl
+	ribsmall16.stl
+	ribsmall17.stl
+	ribsmall18.stl
+	ribsmall2.stl
+	ribsmall3.stl
+	ribsmall4.stl
+	ribsmall5.stl
+	ribsmall6.stl
+	ribsmall7.stl
+	ribsmall8.stl
+	ribsmall9.stl
+	ribtop1.stl
+	ribtop2.stl
+	ribtop3.stl
+	ribtop4.stl
+	ribtop5.stl
+	ribtop6.stl
+	wallmag.stl
+	walltank.stl
+	walltrans.stl
+		 
+    );
+
+    // Mark edges whose adjacent surface normals are at an angle less
+    // than includedAngle as features
+    // - 0  : selects no edges
+    // - 180: selects all edges
+    includedAngle           150;
+
+       
+
+    writeObj                yes;
+    verboseObj              yes;
+
+
+subsetFeatures
+{
+    
+    // Keep nonManifold edges (edges with >2 connected faces where
+    // the faces form more than two different normal planes)
+    nonManifoldEdges    yes;
+
+    // Keep open edges (edges with 1 connected face)
+    openEdges           yes;
+} 
+
+// ************************************************************************* //

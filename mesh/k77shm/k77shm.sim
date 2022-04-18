@@ -1,0 +1,988 @@
+application
+{
+	mode	normal;
+}
+summary
+{
+}
+probes
+{
+}
+parameters
+{
+}
+meshing
+{
+	parallel	false;
+	processors	6;
+	meshingStages
+	{
+		Base	true;
+		Mesh	true;
+		Layers	true;
+	}
+}
+mesh
+{
+}
+geometry
+{
+	ribtop1
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	ribtop2
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	ribtop6
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	ribsmall9
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	ribsmall3
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	wallmag
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	ribsmall4
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	ribsmall11
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	walltank
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	ribsmall18
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	ribtop4
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	pipe
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	ribsmall6
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	ribsmall15
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	ribtop5
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	ribsmall8
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	walltrans
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	opening
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	ribbig5
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	ribbig6
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	ribsmall14
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	ribsmall16
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	ribsmall7
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	ribsmall10
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	outlet
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	plate
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	ribbig1
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	ribbig2
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	ribbig3
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	ribbig4
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	ribsmall2
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	ribsmall5
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	ribsmall13
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	ribsmall1
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	ribsmall17
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	ribtop3
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+	ribsmall12
+	{
+		scale	(1 1 1);
+		location	(0 0 0);
+		rotationAngle	0;
+		rotationAxis	(1 1 1);
+	}
+}
+inputs
+{
+	default
+	{
+	}
+}
+materials
+{
+	regions
+	{
+	}
+}
+fieldInputs
+{
+	default
+	{
+	}
+}
+primitiveMesh
+{
+	type	box;
+	box
+	{
+		min	(-2 -11.1 -2);
+		max	(2 1.5 2);
+		grading	(1 1 1);
+		division	(20 40 20);
+		boundaries
+		{
+			y_minus
+			{
+				name	boundaries;
+				type	patch;
+			}
+			z_minus
+			{
+				name	boundaries;
+				type	patch;
+			}
+			x_minus
+			{
+				name	boundaries;
+				type	patch;
+			}
+			x_plus
+			{
+				name	boundaries;
+				type	patch;
+			}
+			y_plus
+			{
+				name	boundaries;
+				type	patch;
+			}
+			z_plus
+			{
+				name	boundaries;
+				type	patch;
+			}
+		}
+	}
+	cylinder
+	{
+		length	1;
+		origin	0;
+		radialFraction	0.5;
+		radius	1;
+		radialGrading	1;
+		axis	X;
+		radialDivision	10;
+		circumferentialDivision	10;
+		axialDivision	10;
+		axialGrading	1;
+		boundaries
+		{
+			outlet
+			{
+				name	boundaries;
+				type	patch;
+			}
+			inlet
+			{
+				name	boundaries;
+				type	patch;
+			}
+			cylinder
+			{
+				name	boundaries;
+				type	patch;
+			}
+		}
+	}
+	plate
+	{
+		divisionx	10;
+		divisiony	10;
+		maxx	0.5;
+		maxy	0.5;
+		minx	-0.5;
+		miny	-0.5;
+		gradingx	1;
+		gradingy	1;
+		boundaries
+		{
+			x_plus
+			{
+				name	boundaries;
+				type	patch;
+			}
+			y_plus
+			{
+				name	boundaries;
+				type	patch;
+			}
+			x_minus
+			{
+				name	boundaries;
+				type	patch;
+			}
+			y_minus
+			{
+				name	boundaries;
+				type	patch;
+			}
+		}
+	}
+	wedge
+	{
+		length	1;
+		origin	0;
+		radius	1;
+		radialGrading	1;
+		radialDivision	10;
+		axialDivision	10;
+		axialGrading	1;
+		boundaries
+		{
+			outlet
+			{
+				name	boundaries;
+				type	patch;
+			}
+			inlet
+			{
+				name	boundaries;
+				type	patch;
+			}
+			cylinder
+			{
+				name	boundaries;
+				type	patch;
+			}
+		}
+	}
+}
+regionProperties
+{
+	default
+	{
+		bafflesSplit	false;
+		cellZones
+		{
+		}
+	}
+}
+slices
+{
+}
+Graphics3D
+{
+	MeshParameters
+	{
+		default
+		{
+			boundaries
+			{
+				color	(155 50 0);
+				transparency	0.0;
+				faceHide	false;
+				edgesHide	false;
+			}
+			opening
+			{
+				color	(155 180 50);
+				transparency	0.0;
+				faceHide	false;
+				edgesHide	false;
+			}
+			outlet
+			{
+				color	(155 50 0);
+				transparency	0.0;
+				faceHide	false;
+				edgesHide	false;
+			}
+			plate
+			{
+				color	(155 180 50);
+				transparency	0.0;
+				faceHide	false;
+				edgesHide	false;
+			}
+		}
+	}
+	CellZonesParameters
+	{
+		ribbig5
+		{
+			faceHide	false;
+			edgesHide	false;
+		}
+		ribbig1
+		{
+			faceHide	false;
+			edgesHide	false;
+		}
+		ribbig3
+		{
+			faceHide	false;
+			edgesHide	false;
+		}
+		ribsmall1
+		{
+			faceHide	false;
+			edgesHide	false;
+		}
+		ribsmall4
+		{
+			faceHide	false;
+			edgesHide	false;
+		}
+		ribsmall6
+		{
+			faceHide	false;
+			edgesHide	false;
+		}
+		wallmag
+		{
+			faceHide	false;
+			edgesHide	false;
+		}
+		ribsmall11
+		{
+			faceHide	false;
+			edgesHide	false;
+		}
+		ribsmall13
+		{
+			faceHide	false;
+			edgesHide	false;
+		}
+		ribsmall15
+		{
+			faceHide	false;
+			edgesHide	false;
+		}
+		ribsmall17
+		{
+			faceHide	false;
+			edgesHide	false;
+		}
+		ribsmall2
+		{
+			faceHide	false;
+			edgesHide	false;
+		}
+		ribtop1
+		{
+			faceHide	false;
+			edgesHide	false;
+		}
+		ribtop3
+		{
+			faceHide	false;
+			edgesHide	false;
+		}
+		ribtop6
+		{
+			faceHide	false;
+			edgesHide	false;
+		}
+		walltrans
+		{
+			faceHide	false;
+			edgesHide	false;
+		}
+		ribsmall16
+		{
+			faceHide	false;
+			edgesHide	false;
+		}
+		ribbig2
+		{
+			faceHide	false;
+			edgesHide	false;
+		}
+		ribbig4
+		{
+			faceHide	false;
+			edgesHide	false;
+		}
+		ribbig6
+		{
+			faceHide	false;
+			edgesHide	false;
+		}
+		ribsmall5
+		{
+			faceHide	false;
+			edgesHide	false;
+		}
+		ribtop4
+		{
+			faceHide	false;
+			edgesHide	false;
+		}
+		walltank
+		{
+			faceHide	false;
+			edgesHide	false;
+		}
+		ribsmall7
+		{
+			faceHide	false;
+			edgesHide	false;
+		}
+		ribsmall8
+		{
+			faceHide	false;
+			edgesHide	false;
+		}
+		ribsmall10
+		{
+			faceHide	false;
+			edgesHide	false;
+		}
+		ribsmall12
+		{
+			faceHide	false;
+			edgesHide	false;
+		}
+		ribsmall14
+		{
+			faceHide	false;
+			edgesHide	false;
+		}
+		ribsmall18
+		{
+			faceHide	false;
+			edgesHide	false;
+		}
+		ribsmall3
+		{
+			faceHide	false;
+			edgesHide	false;
+		}
+		ribsmall9
+		{
+			faceHide	false;
+			edgesHide	false;
+		}
+		ribtop2
+		{
+			faceHide	false;
+			edgesHide	false;
+		}
+		ribtop5
+		{
+			faceHide	false;
+			edgesHide	false;
+		}
+	}
+	ProbeParameters
+	{
+	}
+	View
+	{
+		SavedViews
+		{
+		}
+	}
+	PostprocessingParameters
+	{
+		ActiveTime	0;
+		ActiveField	Solid;
+	}
+	GeometryParameters
+	{
+		opening
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		outlet
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		pipe
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		plate
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		ribbig1
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		ribbig2
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		ribbig3
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		ribbig4
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		ribbig5
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		ribbig6
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		ribsmall1
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		ribsmall2
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		ribsmall3
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		ribsmall4
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		ribsmall5
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		ribsmall6
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		ribsmall7
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		ribsmall8
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		ribsmall9
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		ribsmall10
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		ribsmall11
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		ribsmall12
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		ribsmall13
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		ribsmall14
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		ribsmall15
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		ribsmall16
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		ribsmall17
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		ribsmall18
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		ribtop1
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		ribtop2
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		ribtop3
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		ribtop4
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		ribtop5
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		ribtop6
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		wallmag
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		walltank
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+		walltrans
+		{
+			color	(112 128 144);
+			transparency	0.0;
+			hide	true;
+		}
+	}
+	PostprocessingPlots
+	{
+		plot_0
+		{
+			key	Residual;
+			title	;
+			isXGridVisible	true;
+			isYGridVisible	true;
+			xLabel	Time;
+			yLabel	Residuum;
+			series_0
+			{
+				key	Ux;
+				label	Ux;
+				color	(0 0 255);
+				isVisible	true;
+				thickness	1;
+				representation	Solid;
+			}
+			series_1
+			{
+				key	Uy;
+				label	Uy;
+				color	(255 0 0);
+				isVisible	true;
+				thickness	1;
+				representation	Solid;
+			}
+			series_2
+			{
+				key	Uz;
+				label	Uz;
+				color	(0 255 0);
+				isVisible	true;
+				thickness	1;
+				representation	Solid;
+			}
+			series_3
+			{
+				key	p;
+				label	p;
+				color	(0 0 0);
+				isVisible	true;
+				thickness	1;
+				representation	Solid;
+			}
+			series_4
+			{
+				key	p_rgh;
+				label	p_rgh;
+				color	(0 0 0);
+				isVisible	true;
+				thickness	1;
+				representation	Solid;
+			}
+			series_5
+			{
+				key	omega;
+				label	omega;
+				color	(255 200 0);
+				isVisible	true;
+				thickness	1;
+				representation	Solid;
+			}
+			series_6
+			{
+				key	epsilon;
+				label	epsilon;
+				color	(255 200 0);
+				isVisible	true;
+				thickness	1;
+				representation	Solid;
+			}
+			series_7
+			{
+				key	k;
+				label	k;
+				color	(0 255 255);
+				isVisible	true;
+				thickness	1;
+				representation	Solid;
+			}
+		}
+	}
+	SlicesParameters
+	{
+	}
+}

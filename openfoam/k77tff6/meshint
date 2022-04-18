@@ -1,0 +1,2 @@
+#!/bin/bash
+fluentMeshToFoam k77ribtetra_int.msh -writeSets

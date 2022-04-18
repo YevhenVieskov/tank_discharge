@@ -1,0 +1,5 @@
+setFields
+decomposePar
+mpirun -np 30 renumberMesh -overwrite -parallel
+mpirun -np 30 spillwayFlowVarRhoUr -parallel
+reconstructPar

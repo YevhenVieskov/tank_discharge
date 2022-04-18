@@ -1,0 +1,2 @@
+#!/bin/bash
+splitMesh ribtop1 ribtop1m ribtop1s -overwrite

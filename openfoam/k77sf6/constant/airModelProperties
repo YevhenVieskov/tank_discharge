@@ -1,0 +1,31 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  5                                     |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      airModelProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+// Input parameters for the air entrainment model
+deltaFunctionCutoff [0 -1 0 0 0 0 0] 20;
+phiEnt  phiEnt [0 1 0 0 0 0 0] 0.029; // Liquid layer of thickness -> phi_ent[m] (0.05L=0.05*0.08) (0.05L=0.05*0.588)
+u_cr  u_cr [0 1 -1 0 0 0 0] 0.0; // Critical velocity -> u_cr [m/s]
+kCritical kCritical [0 2 -2 0 0 0 0] 0.025;	// Critical TKE -> k_cr [m^2/s^2] 
+diffusiveTerm true;
+interfaceThickness 0.006; //0.004
+diffusionConst 150;
+BBA false; 
+dbub 0.0013;
+UrFlag true;
+numInterfaceCells 70000;
+
+
+// ************************************************************************* //

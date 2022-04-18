@@ -1,0 +1,76 @@
+FoamFile
+{
+	version	2.0;
+	format	ascii;
+	class	dictionary;
+	location	"system";
+	object	createPatchDict;
+}
+pointSync	false;
+patches	
+(
+	{
+		name    opening;
+		patchInfo
+		{
+			type    patch;
+		}
+		constructFrom patches;
+		patches  (opening_"opening");
+	}
+	{
+		name    outlet;
+		patchInfo
+		{
+			type    patch;
+		}
+		constructFrom patches;
+		patches  (outlet_"outlet");
+	}
+	{
+		name    pipe;
+		patchInfo
+		{
+			type    wall;
+		}
+		constructFrom patches;
+		patches  (pipe_"pipe");
+	}
+	{
+		name    plate;
+		patchInfo
+		{
+			type    wall;
+		}
+		constructFrom patches;
+		patches  (plate_"plate");
+	}
+	{
+		name    wallmag;
+		patchInfo
+		{
+			type    wall;
+		}
+		constructFrom patches;
+		patches  (wallmag_"wallmag");
+	}
+	{
+		name    walltank;
+		patchInfo
+		{
+			type    wall;
+		}
+		constructFrom patches;
+		patches  (walltank_"walltank");
+	}
+	{
+		name    walltrans;
+		patchInfo
+		{
+			type    wall;
+		}
+		constructFrom patches;
+		patches  (walltrans_"walltrans");
+	}
+	
+);

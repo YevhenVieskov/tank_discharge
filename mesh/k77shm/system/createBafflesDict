@@ -1,0 +1,708 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  8
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      createBafflesDict;
+}
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+baffles
+{
+    ribtop1
+	{
+		type searchableSurface;
+		surface triSurfaceMesh;
+		name ribtop1.stl;
+		patches
+		{
+		    master
+			{
+			    name ribtop1m;
+				type wall;
+				neighbourPatch ribtop1s;			
+			}
+			
+			slave
+			{
+			    name ribtop1s;
+				type wall;
+				neighbourPatch ribtop1m;			
+			}
+		}
+	}
+	
+	ribtop2
+	{
+		type searchableSurface;
+		surface triSurfaceMesh;
+		name ribtop2.stl;
+		patches
+		{
+		    master
+			{
+			    name ribtop2m;
+				type wall;
+				neighbourPatch ribtop2s;			
+			}
+			
+			slave
+			{
+			    name ribtop2s;
+				type wall;
+				neighbourPatch ribtop2m;			
+			}
+		}
+	}
+	
+	ribtop3
+	{
+		type searchableSurface;
+		surface triSurfaceMesh;
+		name ribtop3.stl;
+		patches
+		{
+		    master
+			{
+			    name ribtop3m;
+				type wall;
+				neighbourPatch ribtop3s;			
+			}
+			
+			slave
+			{
+			    name ribtop3s;
+				type wall;
+				neighbourPatch ribtop3m;			
+			}
+		}
+	}
+	ribtop4
+	{
+		type searchableSurface;
+		surface triSurfaceMesh;
+		name ribtop4.stl;
+		patches
+		{
+		    master
+			{
+			    name ribtop4m;
+				type wall;
+				neighbourPatch ribtop4s;			
+			}
+			
+			slave
+			{
+			    name ribtop4s;
+				type wall;
+				neighbourPatch ribtop4m;			
+			}
+		}
+	}
+	
+	ribtop5
+	{
+		type searchableSurface;
+		surface triSurfaceMesh;
+		name ribtop5.stl;
+		patches
+		{
+		    master
+			{
+			    name ribtop5m;
+				type wall;
+				neighbourPatch ribtop5s;			
+			}
+			
+			slave
+			{
+			    name ribtop5s;
+				type wall;
+				neighbourPatch ribtop5m;			
+			}
+		}
+	}
+	
+	ribtop6
+	{
+		type searchableSurface;
+		surface triSurfaceMesh;
+		name ribtop6.stl;
+		patches
+		{
+		    master
+			{
+			    name ribtop6m;
+				type wall;
+				neighbourPatch ribtop6s;			
+			}
+			
+			slave
+			{
+			    name ribtop6s;
+				type wall;
+				neighbourPatch ribtop6m;			
+			}
+		}
+	}
+	
+	ribbig1
+	{
+		type searchableSurface;
+		surface triSurfaceMesh;
+		name ribbig1.stl;
+		patches
+		{
+		    master
+			{
+			    name ribbig1m;
+				type wall;
+				neighbourPatch ribbig1s;			
+			}
+			
+			slave
+			{
+			    name ribbig1s;
+				type wall;
+				neighbourPatch ribbig1m;			
+			}
+		}
+	}
+	
+	ribbig2
+	{
+		type searchableSurface;
+		surface triSurfaceMesh;
+		name ribbig2.stl;
+		patches
+		{
+		    master
+			{
+			    name ribbig2m;
+				type wall;
+				neighbourPatch ribbig2s;			
+			}
+			
+			slave
+			{
+			    name ribbig2s;
+				type wall;
+				neighbourPatch ribbig2m;			
+			}
+		}
+	}
+	
+	ribbig3
+	{
+		type searchableSurface;
+		surface triSurfaceMesh;
+		name ribbig3.stl;
+		patches
+		{
+		    master
+			{
+			    name ribbig3m;
+				type wall;
+				neighbourPatch ribbig3s;			
+			}
+			
+			slave
+			{
+			    name ribbig3s;
+				type wall;
+				neighbourPatch ribbig3m;			
+			}
+		}
+	}
+	ribbig4
+	{
+		type searchableSurface;
+		surface triSurfaceMesh;
+		name ribbig4.stl;
+		patches
+		{
+		    master
+			{
+			    name ribbig4m;
+				type wall;
+				neighbourPatch ribbig4s;			
+			}
+			
+			slave
+			{
+			    name ribbig4s;
+				type wall;
+				neighbourPatch ribbig4m;			
+			}
+		}
+	}
+	
+	ribbig5
+	{
+		type searchableSurface;
+		surface triSurfaceMesh;
+		name ribbig5.stl;
+		patches
+		{
+		    master
+			{
+			    name ribbig5m;
+				type wall;
+				neighbourPatch ribbig5s;			
+			}
+			
+			slave
+			{
+			    name ribbig5s;
+				type wall;
+				neighbourPatch ribbig5m;			
+			}
+		}
+	}
+	
+	ribbig6
+	{
+		type searchableSurface;
+		surface triSurfaceMesh;
+		name ribbig6.stl;
+		patches
+		{
+		    master
+			{
+			    name ribbig6m;
+				type wall;
+				neighbourPatch ribbig6s;			
+			}
+			
+			slave
+			{
+			    name ribbig6s;
+				type wall;
+				neighbourPatch ribbig6m;			
+			}
+		}
+	}
+	
+	ribsmall1
+	{
+		type searchableSurface;
+		surface triSurfaceMesh;
+		name ribsmall1.stl;
+		patches
+		{
+		    master
+			{
+			    name ribsmall1m;
+				type wall;
+				neighbourPatch ribsmall1s;			
+			}
+			
+			slave
+			{
+			    name ribsmall1s;
+				type wall;
+				neighbourPatch ribsmall1m;			
+			}
+		}
+	}
+	
+	ribsmall2
+	{
+		type searchableSurface;
+		surface triSurfaceMesh;
+		name ribsmall2.stl;
+		patches
+		{
+		    master
+			{
+			    name ribsmall2m;
+				type wall;
+				neighbourPatch ribsmall2s;			
+			}
+			
+			slave
+			{
+			    name ribsmall2s;
+				type wall;
+				neighbourPatch ribsmall2m;			
+			}
+		}
+	}
+	
+	ribsmall3
+	{
+		type searchableSurface;
+		surface triSurfaceMesh;
+		name ribsmall3.stl;
+		patches
+		{
+		    master
+			{
+			    name ribsmall3m;
+				type wall;
+				neighbourPatch ribsmall3s;			
+			}
+			
+			slave
+			{
+			    name ribsmall3s;
+				type wall;
+				neighbourPatch ribsmall3m;			
+			}
+		}
+	}
+	ribsmall4
+	{
+		type searchableSurface;
+		surface triSurfaceMesh;
+		name ribsmall4.stl;
+		patches
+		{
+		    master
+			{
+			    name ribsmall4m;
+				type wall;
+				neighbourPatch ribsmall4s;			
+			}
+			
+			slave
+			{
+			    name ribsmall4s;
+				type wall;
+				neighbourPatch ribsmall4m;			
+			}
+		}
+	}
+	
+	ribsmall5
+	{
+		type searchableSurface;
+		surface triSurfaceMesh;
+		name ribsmall5.stl;
+		patches
+		{
+		    master
+			{
+			    name ribsmall5m;
+				type wall;
+				neighbourPatch ribsmall5s;			
+			}
+			
+			slave
+			{
+			    name ribsmall5s;
+				type wall;
+				neighbourPatch ribsmall5m;			
+			}
+		}
+	}
+	
+	ribsmall6
+	{
+		type searchableSurface;
+		surface triSurfaceMesh;
+		name ribsmall6.stl;
+		patches
+		{
+		    master
+			{
+			    name ribsmall6m;
+				type wall;
+				neighbourPatch ribsmall6s;			
+			}
+			
+			slave
+			{
+			    name ribsmall6s;
+				type wall;
+				neighbourPatch ribsmall6m;			
+			}
+		}
+	}
+	
+	ribsmall7
+	{
+		type searchableSurface;
+		surface triSurfaceMesh;
+		name ribsmall7.stl;
+		patches
+		{
+		    master
+			{
+			    name ribsmall7m;
+				type wall;
+				neighbourPatch ribsmall7s;			
+			}
+			
+			slave
+			{
+			    name ribsmall7s;
+				type wall;
+				neighbourPatch ribsmall7m;			
+			}
+		}
+	}
+	
+	ribsmall8
+	{
+		type searchableSurface;
+		surface triSurfaceMesh;
+		name ribsmall8.stl;
+		patches
+		{
+		    master
+			{
+			    name ribsmall8m;
+				type wall;
+				neighbourPatch ribsmall8s;			
+			}
+			
+			slave
+			{
+			    name ribsmall8s;
+				type wall;
+				neighbourPatch ribsmall8m;			
+			}
+		}
+	}
+	
+	ribsmall9
+	{
+		type searchableSurface;
+		surface triSurfaceMesh;
+		name ribsmall9.stl;
+		patches
+		{
+		    master
+			{
+			    name ribsmall9m;
+				type wall;
+				neighbourPatch ribsmall9s;			
+			}
+			
+			slave
+			{
+			    name ribsmall9s;
+				type wall;
+				neighbourPatch ribsmall9m;			
+			}
+		}
+	}
+	ribsmall10
+	{
+		type searchableSurface;
+		surface triSurfaceMesh;
+		name ribsmall10.stl;
+		patches
+		{
+		    master
+			{
+			    name ribsmall10m;
+				type wall;
+				neighbourPatch ribsmall10s;			
+			}
+			
+			slave
+			{
+			    name ribsmall10s;
+				type wall;
+				neighbourPatch ribsmall10m;			
+			}
+		}
+	}
+	
+	ribsmall11
+	{
+		type searchableSurface;
+		surface triSurfaceMesh;
+		name ribsmall11.stl;
+		patches
+		{
+		    master
+			{
+			    name ribsmall11m;
+				type wall;
+				neighbourPatch ribsmall11s;			
+			}
+			
+			slave
+			{
+			    name ribsmall11s;
+				type wall;
+				neighbourPatch ribsmall11m;			
+			}
+		}
+	}
+	
+	ribsmall12
+	{
+		type searchableSurface;
+		surface triSurfaceMesh;
+		name ribsmall12.stl;
+		patches
+		{
+		    master
+			{
+			    name ribsmall12m;
+				type wall;
+				neighbourPatch ribsmall12s;			
+			}
+			
+			slave
+			{
+			    name ribsmall12s;
+				type wall;
+				neighbourPatch ribsmall12m;			
+			}
+		}
+	}
+	
+	ribsmall13
+	{
+		type searchableSurface;
+		surface triSurfaceMesh;
+		name ribsmall13.stl;
+		patches
+		{
+		    master
+			{
+			    name ribsmall13m;
+				type wall;
+				neighbourPatch ribsmall13s;			
+			}
+			
+			slave
+			{
+			    name ribsmall13s;
+				type wall;
+				neighbourPatch ribsmall13m;			
+			}
+		}
+	}
+	
+	ribsmall14
+	{
+		type searchableSurface;
+		surface triSurfaceMesh;
+		name ribsmall14.stl;
+		patches
+		{
+		    master
+			{
+			    name ribsmall14m;
+				type wall;
+				neighbourPatch ribsmall14s;			
+			}
+			
+			slave
+			{
+			    name ribsmall14s;
+				type wall;
+				neighbourPatch ribsmall14m;			
+			}
+		}
+	}
+	
+	ribsmall15
+	{
+		type searchableSurface;
+		surface triSurfaceMesh;
+		name ribsmall15.stl;
+		patches
+		{
+		    master
+			{
+			    name ribsmall15m;
+				type wall;
+				neighbourPatch ribsmall15s;			
+			}
+			
+			slave
+			{
+			    name ribsmall15s;
+				type wall;
+				neighbourPatch ribsmall15m;			
+			}
+		}
+	}
+	ribsmall16
+	{
+		type searchableSurface;
+		surface triSurfaceMesh;
+		name ribsmall16.stl;
+		patches
+		{
+		    master
+			{
+			    name ribsmall16m;
+				type wall;
+				neighbourPatch ribsmall16s;			
+			}
+			
+			slave
+			{
+			    name ribsmall16s;
+				type wall;
+				neighbourPatch ribsmall16m;			
+			}
+		}
+	}
+	
+	ribsmall17
+	{
+		type searchableSurface;
+		surface triSurfaceMesh;
+		name ribsmall17.stl;
+		patches
+		{
+		    master
+			{
+			    name ribsmall17m;
+				type wall;
+				neighbourPatch ribsmall17s;			
+			}
+			
+			slave
+			{
+			    name ribsmall17s;
+				type wall;
+				neighbourPatch ribsmall17m;			
+			}
+		}
+	}
+	
+	ribsmall18
+	{
+		type searchableSurface;
+		surface triSurfaceMesh;
+		name ribsmall18.stl;
+		patches
+		{
+		    master
+			{
+			    name ribsmall18m;
+				type wall;
+				neighbourPatch ribsmall18s;			
+			}
+			
+			slave
+			{
+			    name ribsmall18s;
+				type wall;
+				neighbourPatch ribsmall18m;			
+			}
+		}
+	}
+}
+
+
+
+
+// ************************************************************************* //
